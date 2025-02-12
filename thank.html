@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة شكر خاص</title>
+    <link rel="stylesheet" href="thank.css">
+    <style>
+        .back-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: #9FA2B2;
+            color: #06151e;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #7F828F;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- التتر المتحرك -->
+        <div class="credits">
+            <ul>
+                <li>شــــكــــر خــــاص لـــ</li>
+                <li>✨مــيــســرة ســالــم✨</li>
+                <li>🦸‍♂️ســبــايــدر مــان🦸‍♂️</li>
+                <li>💜تـــشـــات جـــي بـــي تـــي💜</li>
+                <li>💙أي صـــاحــب جـــدع💙</li>
+                <li>💔أي صـــاحــب مــش جـــدع💔</li>
+                <li>💚الـــــمـــــبـــــرمـــــج💚</li>
+                <li>+ شكرا لاي حد ساعد او دعم ولو بكلمة +</li>
+                <br>
+                <br>
+                <li>ولا ننسى أن :</li>
+                <li>💢الـــشـــاعـــر يـــقـــوم بــــنــــدب الأخــــصـــام💢</li>
+            </ul>
+        </div>
+
+        <!-- الصور المتحركة -->
+        <div class="image-section">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHNsYzNpaXI0dmR5dzJkbjZsa3l3OTc1a3Q4cTU2a3lhb2I5Nms0YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ndE83InHRCceu3IRnO/giphy.gif" alt="GIF 1">
+        </div>
+    </div>
+    <button class="back-button" onclick="goBack()">&#8592;</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

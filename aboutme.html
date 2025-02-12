@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عن الشاعر</title>
+    <link rel="stylesheet" href="aboutme.css"> 
+    <style>
+        .back-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: #9FA2B2;
+            color: #06151e;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #7F828F;
+        }
+    </style>
+</head>
+<body>
+    <!-- الصفحة الرئيسية (مخفية في البداية) -->
+    <div id="main-content" class="hidden">
+        <div class="container">
+            <h1>عن الشاعر</h1>
+            <p><strong>ميسرة سالم</strong>، شاعر ولد في <strong>9 فبراير 2005</strong>، نقش اسمه على صخر الإبداع منذ نعومة أظافره، فكان الحرف بين يديه كالسيف في يد الفارس، يضرب به في ساحات البيان، ويرسم به صورًا من المجد والحب والهجاء. نشأ في بيئة يملؤها الأدب، حيث تردد صدى القوافي بين أزقة الحياة، فغمس روحه في بحور الشعر حتى صار قلمه نهرًا من المعاني.</p>
+            
+            <p>كتب عن الحب كأنه ندى الصباح، وعن الحزن كأنه ناي الفجر، وعن الهجاء كأنه الرعد في قلب العاصفة. لم يكن شاعرًا يقتصر على الكلمات، بل كان صانعًا للأحاسيس، ناسجًا لمشاعرٍ تتراقص بين الأبيات كأنها طيفٌ في ليلة مقمرة.</p>
+            
+            <div class="poem">
+                <p>إِنّي خُلِقْتُ لِأُشْعِلَ الحَرفَ الّذِي <br>
+                قَدْ كَانَ قَبْلِي فِي الظّلَامِ مُقيّدا</p>
+            </div>
+            
+            <p>ديوانه <strong>"المُيَسَّرَات"</strong> شاهد على براعته، حيث تجد بين صفحاته مزيجًا من الفخر والحب، من القوة والضعف، من النور والظلال، فلا يمر قارئ على أبياته إلا وترك فيها جزءًا من قلبه.</p>
+            
+            <div class="quote">
+                "الشعر ليس مجرد كلمات، بل هو صدى الروح حين تضيق بها الحياة."
+            </div>
+            
+            <p>إذا أردت أن تغوص في عوالمه، فاقرأ شعره وستدرك أن بعض الابيات تكتب بالدمع قبل الحبر، وتبوح بما يعجز عنه اللسان.</p>
+        </div>
+    </div>
+    <button class="back-button" onclick="goBack()">&#8592;</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

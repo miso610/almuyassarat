@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    line-height: 1.6;
+    direction: rtl;
+}
+
+/* تصميم الحاوية الرئيسية */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #415A77;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* تصميم الهيدر */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1B263B;
+    color: #E0E1DD;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-weight: bold;
+    color: #778DA9;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #778DA9;
+}
+
+/* تصميم القصائد */
+.poem {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #bad7ea;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.poem-content {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.poem h2 {
+    font-size: 2rem;
+    color: #1B263B;
+    margin-bottom: 15px;
+}
+
+.poem p {
+    font-weight: 6000;
+    font-size: 1.1rem;
+    color: #0D1B2A;
+    margin-bottom: 15px;
+}
+
+/* تصميم الفوتر */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1B263B;
+    color: #E0E1DD;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #E0E1DD;
+}

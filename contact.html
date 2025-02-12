@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0D1B2A;
+            color: #E0E1DD;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        
+        header {
+            margin-bottom: 20px;
+        }
+        
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 5px;
+            color: #778DA9;
+        }
+        
+        header p {
+            font-size: 1em;
+            color: #778DA9;
+        }
+        
+        .contact-section {
+            max-width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1B263B;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .contact-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .gif-container img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            text-align: center;
+            width: 100%;
+        }
+        
+        .contact-info h2 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #778DA9;
+        }
+        
+        .info-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        
+        .info-item i {
+            font-size: 1.3em;
+            margin-left: 10px;
+            color: #778DA9;
+        }
+        
+        .info-item p {
+            font-size: 1em;
+            margin: 0;
+        }
+        
+        .social-media {
+            margin-top: 20px;
+        }
+        
+        .social-media h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #778DA9;
+        }
+        
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .social-icon {
+            font-size: 1.5em;
+            color: #415A77;
+            transition: color 0.3s ease;
+        }
+        
+        .social-icon:hover {
+            color: #778DA9;
+        }
+        
+        .joke {
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        
+        .back-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: #9FA2B2;
+            color: #06151e;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .back-button:hover {
+            background-color: #7F828F;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>اتصل بنا</h1>
+        <p>تواصل معنا لأي استفسارات أو ملاحظات.</p>
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-content">
+            <div class="gif-container">
+                <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWpncnY2aHVlYzFwcWd5emk0YXpzdGg5Y3Vxb3B2MWE0ZzlpaGtxMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/B8Gb6XJnGvbGtvhzbs/giphy.gif" alt="GIF">
+            </div>
+            <div class="contact-info">
+                <h2>معلومات الاتصال</h2>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>عنواننا: إسطنبول، تركيا</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>البريد الإلكتروني: meysarasalem@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>رقم الهاتف: +90 537 661 7791</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <h3>تابعنا على:</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="joke">
+        <p style="font-size: 20px;"><strong>تـــنـــبـــيـــه :</strong> لينكات وسائل التواصل الاجتماعي لا تعمل، فلا داعي للنقر عليها 🙄</p>
+    </div>
+
+    <button class="back-button" onclick="goBack()">&#8592;</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

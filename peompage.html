@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ديوان المُيَسَّرَات - القصائد</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        
+        .back-button {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        background-color: #9FA2B2;
+        color: #06151e;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+            }
+        .back-button:hover {
+        background-color: #7F828F;
+            }
+
+        .poem {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            background-color: #bad7ea;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .poem h2 {
+            font-weight: bold;
+            font-size: 2rem;
+            color: #0D1B2A;
+            cursor: pointer;
+            transition: color 0.3s;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .poem h2:hover {
+            color: #6c9cc1;
+        }
+        .poem .logo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+        .poem-content {
+            text-align: center;
+        }
+
+        .poem p {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #0D1B2A;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+    </style>
+    <script>
+        function navigateTo(url) {
+            window.location.href = url; // الانتقال إلى الصفحة المحددة
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <!-- الهيدر -->
+        <header>
+            <h1>ديوان المُيَسَّرَات</h1>
+            <p>الشاعر يطلب من الزائرين لهذا الموقع ان لا يركزوا على الصور لانها تم اختيارها بمحض المزاح و قد لا تمد اي صلة لمحتوى القصيدة الحقيقي و العكس قد يكون صحيحاَ</p>
+            <p style="font-size: 1.5rem;">تم ترتيب القصائد على حسب حب المبرمج (الشــاعـــر)  لها</p>
+            <p>"أغلب قصائد الغزل التي كتبها الشاعر ليست في شخص بعينه"</p>
+        </header>
+
+        <!-- القصائد -->
+        <section class="poem">
+            <img src="images/image7.jpg" alt="شعار القصيدة" class="logo">
+            <div class="poem-content">
+                 <h2 onclick="navigateTo('peoms/peom6.html')">قصيدة<br> "يـــا لـــيـــل"</h2>
+                <p><strong>نبذة عن القصيدة : </strong>القصيدة بعنوان "يا ليل"، وهي من القصائد التي تحمل مكانة خاصة في قلب الشاعر، حيث يتجلى فيها تأمله العميق في الليل والبحر، وهما رمزان للوحدة، الحزن، والتأمل. كتب الشاعر هذه القصيدة ليعبر عن تجربة وجدانية مليئة بالشوق، الضياع، والحنين لمن رحلوا، لكنه لم يكتبها بناءً على تجربة شخصية، بل استوحى مشاعره من مشهد سينمائي أثر فيه بشدة، مما يعكس قدرته الفريدة على استنطاق المشاعر الإنسانية العميقة حتى وإن لم يعشها بنفسه.</p>
+            </div>
+        </section>
+
+        <section class="poem">
+            <img src="images/image6.jpg" alt="شعار القصيدة" class="logo">
+            <div class="poem-content">
+                 <h2 onclick="navigateTo('peoms/peom5.html')">قصيدة<br> "غــــــربــــــة"</h2>
+                <p><strong>نبذة عن القصيدة : </strong>القصيدة تعبر عن معاناة الشاعر من الغربة الداخلية، والشوق للأماكن والأشخاص الذين فارقهم. يصف الشاعر الليل والصمت كعناصر تثير الألم والتأملات، كما يتحدث عن مشاعر الحزن والفقد والذكريات التي تؤلمه. تعكس القصيدة عمق العاطفة الإنسانية والتجربة الشخصية في مواجهة الغربة والحنين للماضي.</p>
+            </div>
+        </section>
+
+        <section class="poem">
+            <img src="images/image.jpg" alt="شعار القصيدة" class="logo">
+            <div class="poem-content">
+                <h2 onclick="navigateTo('peoms/peom1.html')">قصيدة<br> "غَـــــــلَـــا بــــَـــــا"</h2>
+                <p><strong>نبذة عن القصيدة : </strong> قصيدة غزلية متأرجحة بين العتاب والتأمل الفلسفي، تحمل بين أبياتها مشاعر متناقضة تجمع بين الشوق واللوم، وبين الحنين والتساؤل العميق.</p>
+                <p><strong>ملاحظة : </strong> القصة خلف هذه القصيدة ليست مستوحاة من واقع حقيقي، بل هي تعبير أدبي محض عن تأملات الشاعر في معاني الحب والفراق.</p>
+            </div>
+        </section>
+
+        <section class="poem">
+            <img src="images/image2.jpg" alt="شعار القصيدة" class="logo">
+            <div class="poem-content">
+                <h2 onclick="navigateTo('peoms/peom2.html')">قصيدة<br> "ألَـــا لَـــيْـــتَ شِـــعْـــرِي"</h2>
+                <p><strong>نبذة عن القصيدة : </strong>تنتقد هذه القصيدة بشكل ساخر العلوم الحديثة، وبالأخص علمي الفيزياء والفلك، مستخدمة أسلوبًا فكاهيًا لاذعًا.</p>
+                <p><strong>ملاحظة : </strong>كتبت القصيدة بأسلوب مزاجي ساخر، وهي تعبر عن المزاح وليس لها أي نية جادة. (الشاعر مهندس).</p>
+            </div>
+        </section>
+
+        <section class="poem">
+            <img src="images/image3.jpg" alt="شعار القصيدة" class="logo">
+            <div class="poem-content">
+                <h2 onclick="navigateTo('peoms/peom3.html')">قصيدة<br> "حـــــجـــــر"</h2>
+                <p><strong>نبذة عن القصيدة : </strong>تعد هذه القصيدة هجائية موجهة إلى شخص في حياة الشاعر يُدعى "حجر"، حيث يعبر الشاعر عن مشاعر النقد والتهكم تجاه هذا الشخص.</p>
+            </div>
+        </section>
+
+        <section class="poem">
+            <img src="images/image4.jpg" alt="شعار القصيدة" class="logo">
+            <div class="poem-content">
+                <h2 onclick="navigateTo('peoms/peom4.html')">قصيدة<br> "هـــنــــا قـــام الـــفـــتـــى"</h2>
+                <p><strong>نبذة عن القصيدة : </strong>القصيدة تعبر عن معاناة الشاعر من الفراق، حيث يصف الألم والحزن الذي يشعر به بعد هجر محبوبته. يتأرجح بين الأمل والندم، ويصور تأثير الحب العميق على قلبه رغم قسوته. في النهاية، يعترف بأن الذكريات هي ما تبقى، رغم محاولاته لدفن الألم.</p>
+                <p><strong>ملاحظة : </strong><br>الشاعر كتب هذه القصيدة نتيجة لفيلم شاهده، وليس عن تجربته الحقيقية (الشاعر سينجل).</p>
+            </div>
+        </section>
+
+        <section class="poem">
+            <img src="images/image8.jpg" alt="شعار القصيدة" class="logo">
+            <div class="poem-content">
+                 <h2 onclick="navigateTo('peoms/peom7.html')">قصيدة<br> "قـــــالـــــوا"</h2>
+                <p><strong>نبذة عن القصيدة : </strong>قصيدة "قالوا" تعكس نقدًا لاذعًا للمجتمع الذي يغرق في القيل والقال دون وعي أو تحقق. يستخدم الشاعر التكرار اللفظي بذكاء لإبراز فوضى الكلام الفارغ، معبرًا عن استيائه من ترديد الأقوال بلا تفكير، ومؤكدًا على قيمة الصمت حين يكون الكلام بلا جدوى.</p>
+            </div>
+        </section>
+
+        <section class="poem">
+            <div class="poem-content">
+                 <h2 onclick="navigateTo('nadwa.html')">الندوة الشعرية</h2>
+            </div>
+        </section>
+
+        <button class="back-button" onclick="goBack()">&#8592;</button>
+            <script>
+                function goBack() {
+                window.history.back();
+                    }
+            </script>
+        <footer>
+            <p>جميع الحقوق محفوظة &copy; 2025 ديوان الميسرات</p>
+        </footer>
+    </div>
+</body>
+</html>

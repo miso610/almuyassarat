@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="دعم الموقع - نحن نقدر دعمكم الكبير لاستمرارنا في تقديم المحتوى المميز. تعرف على طرق الدفع المتاحة.">
+    <title>دعم الموقع</title>
+    <link rel="stylesheet" href="support.css">
+</head>
+<body>
+    <header>
+        <h1>دعم الموقع</h1>
+        <p>نحن نقدر دعمكم الكبير لاستمرارنا في تقديم المحتوى المميز.</p>
+    </header>
+
+    <section class="payment-methods">
+        <h2 style="color: #778DA9;">طرق الدفع</h2>
+        <div class="bank-transfer">
+            <h3>التحويل البنكي المباشر</h3>
+            <p>يمكنك دعمنا عن طريق التحويل البنكي المباشر إلى الحساب التالي:</p>
+            <div class="bank-details">
+                <p><strong>اسم البنك:</strong> ZIRAAT BANKASI</p>
+                <p><strong>اسم صاحب الحساب:</strong> MYSARA SAID FATHY ABDELKADER SALEM</p>
+                <p><strong>رقم الحساب (IBAN):</strong> TR98 0001 0090 1057 6662 6050 01</p><br>
+            </div>
+            <p>بعد إتمام التحويل، يرجى إرسال إشعار إلى بريدنا الإلكتروني مع تفاصيل التحويل لتأكيد الدعم.</p><br>
+            <a href="mailto:meysarasalem@gmail.com" class="email-button" onclick="alert('سيتم فتح تطبيق البريد الإلكتروني الخاص بك.');" aria-label="إرسال بريد إلكتروني لتأكيد الدعم">الــبــريــد الإلــكــتــرونــي</a>
+        </div>
+    </section>
+
+    <!-- إضافة قسم الأسئلة الشائعة -->
+    <section class="faq">
+        <h2 style="color: #778DA9;">الأسئلة الشائعة</h2>
+        <div class="faq-item">
+            <h3>كيف يمكنني التأكد من أن التحويل قد تم بنجاح؟</h3>
+            <p>بعد إتمام التحويل، يرجى إرسال إشعار إلى بريدنا الإلكتروني مع تفاصيل التحويل لتأكيد الدعم.</p>
+        </div>
+        <div class="faq-item">
+            <h3>هل هناك حد أدنى للدعم؟</h3>
+            <p>لا يوجد حد أدنى للدعم، نقدر أي مبلغ يتم تحويله.</p>
+        </div>
+    </section>
+
+    <!-- إضافة الـ GIF الثالث -->
+    <div class="gif-container gif-center">
+        <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTgzenZpOHRoNDJ6eWU4amp4M2o4djB0YmszdmkwMDdxaGV5Mjl6diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MDJ9IbxxvDUQM/giphy.gif" alt="GIF 3">
+    </div>
+
+    <!-- زر العودة إلى الأعلى -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">العودة إلى الأعلى</button>
+
+    <footer>
+        <p>شكرًا لدعمكم! ❤️</p>
+    </footer>
+
+    <script>
+        // JavaScript للزر العودة إلى الأعلى
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

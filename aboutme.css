@@ -1,0 +1,156 @@
+/* التنسيق العام */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0D1B2A; /* خلفية داكنة */
+    color: #E0E1DD; /* لون النص الرئيسي */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* الصفحة الرئيسية */
+#main-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(27, 38, 59, 0.9); /* خلفية شبه شفافة */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #778DA9; /* لون العنوان */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1.1em;
+    color: #E0E1DD; /* لون النص الفاتح */
+}
+
+.quote {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+    color: #778DA9; /* لون النص المميز */
+    font-size: 1.2em;
+}
+
+.poem {
+    background: #1B263B; /* خلفية داكنة */
+    font-size: 1.2em;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: #E0E1DD; /* لون النص الفاتح */
+}
+
+/* تأثيرات الحركة */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* التصميم المتجاوب */
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        padding: 20px;
+        overflow: auto;
+    }
+
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .quote {
+        font-size: 1em;
+    }
+
+    .poem {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .back-button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .quote {
+        font-size: 0.9em;
+    }
+
+    .poem {
+        font-size: 0.9em;
+    }
+
+    .back-button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
