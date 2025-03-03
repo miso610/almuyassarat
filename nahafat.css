@@ -1,0 +1,40 @@
+/* Reset بعض العناصر الأساسية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0D1B2A; /* الخلفية الجديدة */
+    color: #E0E1DD; /* لون النص الفاتح */
+    line-height: 1.8;
+    direction: rtl;
+}
+
+
+.gif-container {
+    position: fixed;
+    z-index: 1000;
+}
+
+.gif-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(13, 27, 42, 0.8);
+}
+
+.gif-center {
+    position: static;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gif-center img {
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+}
